@@ -50,5 +50,5 @@ During this project, i learned how to use Chakra-Ui and how to use rawg-io api. 
 
 -   [Chakra-Ui](https://chakra-ui.com/) - Chakra-Ui documentation
 -   [Rawg-Io](https://rawg.io/apidocs) - Rawg-Io documentation
--   [Rawg-Io](https://docs.pmnd.rs/zustand/getting-started/introduction) - Zustand documentation
--   [Rawg-Io](https://tanstack.com/query/latest/docs/framework/react/overview) - React Query documentation
+-   [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) - Zustand documentation
+-   [React Query](https://tanstack.com/query/latest/docs/framework/react/overview) - React Query documentation
