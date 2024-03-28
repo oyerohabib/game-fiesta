@@ -2,6 +2,14 @@
 
 GameFiesta is a video game discovery web app that helps you find new and interesting games to play. With GameFiesta, you can search for games by platform, genre, and more. You can also view details about a game, such as its description, release date, and screenshots.
 
+## 📸 Screenshots
+
+|                                                  |                                                  |
+| :----------------------------------------------: | :----------------------------------------------: |
+| ![Screenshot 6](https://i.imgur.com/Yctj1rY.png) | ![Screenshot 5](https://i.imgur.com/kD6YAAv.png) |
+| ![Screenshot 3](https://i.imgur.com/FzFkZbS.png) | ![Screenshot 4](https://i.imgur.com/xhBdGEg.png) |
+| ![Screenshot 2](https://i.imgur.com/pvJnO0p.png) | ![Screenshot 1](https://i.imgur.com/UlEGkUD.png) |
+
 ## Getting Started
 
 To get started with GameFiesta, follow these steps:
@@ -13,13 +21,35 @@ To get started with GameFiesta, follow these steps:
 5. Run `npm run dev` to start the web server.
 6. Open http://localhost:5173/ in your browser. Walla! You're ready to start using GameFiesta.
 
-## 📸 Screenshots
+Alternatively, you can run the application using Docker run the below commands:
 
-|                                                  |                                                  |
-| :----------------------------------------------: | :----------------------------------------------: |
-| ![Screenshot 6](https://i.imgur.com/Yctj1rY.png) | ![Screenshot 5](https://i.imgur.com/kD6YAAv.png) |
-| ![Screenshot 3](https://i.imgur.com/FzFkZbS.png) | ![Screenshot 4](https://i.imgur.com/xhBdGEg.png) |
-| ![Screenshot 2](https://i.imgur.com/pvJnO0p.png) | ![Screenshot 1](https://i.imgur.com/UlEGkUD.png) |
+1. Open and start the Docker Application on your computer.
+2. Login into docker by running, `docker login` command and ensure the login is successful.
+3. Build the Docker Image:
+
+    ```bash
+    docker build -t game-fiesta:1.0 .
+    ```
+
+4. Run the Docker Container:
+
+    ```bash
+    docker run -p 5173:5173 -d game-fiesta:1.0
+    ```
+
+Alternatively, you can pull the docker image (from docker hub) and simply run, without having to build or clone it.
+
+1. Pull the Docker Image:
+
+    ```bash
+    docker pull habibo1234/game-fiesta:1.0
+    ```
+
+2. Run the Docker Image:
+
+    ```bash
+    docker run -p 5173:5173 -d habibo1234/game-fiesta:1.0
+    ```
 
 ## Links
 
