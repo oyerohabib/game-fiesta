@@ -82,3 +82,13 @@ During this project, i learned how to use Chakra-Ui and how to use rawg-io api. 
 -   [Rawg-Io](https://rawg.io/apidocs) - Rawg-Io documentation
 -   [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) - Zustand documentation
 -   [React Query](https://tanstack.com/query/latest/docs/framework/react/overview) - React Query documentation
+
+## Contributing to project
+
+Thank you for considering contributing to the GameFiesta App! We welcome contributions from the community to help improve and grow the project.
+
+Please note that this project adheres to the [Contributor Covenant Code of Conduct](CONTRIBUTING.md). By participating, you are expected to uphold this code. Please report any unacceptable behavior.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
